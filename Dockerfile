@@ -1,6 +1,6 @@
-FROM ubuntu:14.04
-MAINTAINER james@example.com
-ENV REFRESHED_AT 2014-06-01
+FROM ubuntu:16.04
+MAINTAINER supermanheng21@gmail.com
+ENV REFRESHED_AT 2016-11-11
 
 RUN apt-get update -qq && apt-get install -qqy curl apt-transport-https
 RUN apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
